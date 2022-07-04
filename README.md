@@ -1,3 +1,3 @@
-# Rat Stomach web visualisation
+# Rat stomach web visualisation
 
 Coming soon!
