@@ -1,3 +1,3 @@
-# Rat_Stomach_Sim
+# Rat Stomach web visualisation
 
 Coming soon!
