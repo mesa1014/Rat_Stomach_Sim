@@ -6,11 +6,12 @@ http://rat-stomach.herokuapp.com/
 
 # How to run
 
-- install NodeJS from:
+- install Node.js from:
 
   https://nodejs.org/en/
 
-- clone the repo and go to the root folder. Run the following command in terminal:
+- clone the repo and go to the root folder. Run the following command in the terminal:
+
   node server.js 
   
 - go to the following link to check the local web-based visualisation:
@@ -28,13 +29,13 @@ http://rat-stomach.herokuapp.com/
   
    heroku login
    
-- clone the repository
+- clone the repository:
 
   heroku git:clone -a Rat_Stomach_Sim 
   
   cd rat-stomach
 
-- deploy your changes
+- modify something and deploy your changes:
 
   git add .
   
