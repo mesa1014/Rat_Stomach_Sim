@@ -25,21 +25,20 @@ http://rat-stomach.herokuapp.com/
   
   https://devcenter.heroku.com/articles/heroku-cli
   
-- in the terminal type:
+- clone this repo and go to the repo path. 
   
-   heroku login
-   
-- clone the repository:
+- create a new app:
+  
+  heroku create -a example-app
 
-  heroku git:clone -a Rat_Stomach_Sim 
-  
-  cd rat-stomach
+- check whether remote has been changed to heroku:
 
-- modify something and deploy your changes:
+  git remote -v
 
-  git add .
-  
-  git commit -am "update something"
-  
+- deploy your changes:
+
   git push heroku master
   
+- for further instructions visit:
+
+  https://devcenter.heroku.com/articles/git
