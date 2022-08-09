@@ -30,6 +30,9 @@ If you are interested in a particular view, rotate, translate, zoom, etc. inside
 ```
 gfx list win 1
 ```
+
+do not forget to update the file names in demo.js, demo_thickness.js lines 3,4,40 (any line with scene.loadViewURL and scene.loadMetadataURL) and in demo_sw.js lines 40,41,42,43.
+
 #### Steps
 
 - install Node.js from:
