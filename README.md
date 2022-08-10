@@ -39,7 +39,8 @@ do not forget to update the file names in demo.js, demo_thickness.js lines 3,4,4
 
   https://nodejs.org/en/
 
-
+  usually it comes with npm, otherwise install npm as well.
+  
 - clone the repo and go to the root folder. Run the following command in the terminal:
 
   ```
@@ -71,7 +72,12 @@ do not forget to update the file names in demo.js, demo_thickness.js lines 3,4,4
 ```
   heroku create -a rat-stomach-app
 ```
-
+  sometimes you need to:
+  
+  ```
+  heroku login
+  ```
+  
 - check whether remote has been changed to heroku:
 
 ```
@@ -81,6 +87,8 @@ do not forget to update the file names in demo.js, demo_thickness.js lines 3,4,4
 - deploy your changes:
 
 ```
+  git add .
+  git commit -am "initial commit"
   git push heroku master
 ```
 
