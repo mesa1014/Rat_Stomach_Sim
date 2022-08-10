@@ -1,4 +1,4 @@
-# Rat stomach web visualisation
+# Web visualisation of rat stomach 
 
 This repo presents a computational model of biophysical properties of the rat stomach informed by comprehensive analysis of muscle anatomy:
 
@@ -39,7 +39,7 @@ do not forget to update the file names in demo.js, demo_thickness.js lines 3,4,4
 
   https://nodejs.org/en/
 
-  usually it comes with npm, otherwise install npm as well.
+  usually, it comes with npm, otherwise, install npm as well.
   
 - clone the repo and go to the root folder. Run the following command in the terminal:
 
@@ -72,13 +72,13 @@ do not forget to update the file names in demo.js, demo_thickness.js lines 3,4,4
 ```
   heroku create -a rat-stomach-app
 ```
-  sometimes you need to login. If necessary it asks you to type:
+  sometimes you need to log in. If necessary, it asks you to type:
   
   ```
   heroku login
   ```
   
-- check whether remote has been changed to heroku:
+- check whether the remote has been changed to Heroku:
 
 ```
   git remote -v
@@ -96,6 +96,6 @@ do not forget to update the file names in demo.js, demo_thickness.js lines 3,4,4
 
   http://rat-stomach-app.herokuapp.com/
 
-- for further instructions visit:
+- for further instructions, visit:
 
   https://devcenter.heroku.com/articles/git
