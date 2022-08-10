@@ -39,20 +39,16 @@ do not forget to update the file names in demo.js, demo_thickness.js lines 3,4,4
 
   https://nodejs.org/en/
 
-- then:
+
+- clone the repo and go to the root folder. Run the following command in the terminal:
 
   ```
   npm install express
   ```
 
-- then: 
-
   ```
   npm install compression
   ```
-
-- clone the repo and go to the root folder. Run the following command in the terminal:
-
   ```
   node server.js 
   ```
