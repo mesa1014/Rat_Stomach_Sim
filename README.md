@@ -72,7 +72,7 @@ do not forget to update the file names in demo.js, demo_thickness.js lines 3,4,4
 ```
   heroku create -a rat-stomach-app
 ```
-  sometimes you need to:
+  sometimes you need to login. If necessary it asks you to type:
   
   ```
   heroku login
